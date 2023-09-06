@@ -15,7 +15,7 @@ spec:
     metadata:
       labels:
         app: wordpress
-        type: database
+        tier: mysql
     spec:
       containers:
       - name: wordpress
