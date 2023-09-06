@@ -18,32 +18,32 @@ spec:
         type: database
     spec:
       containers:
-        - name: wordpress
-          image: mariadb
-          ports:
-            - containerPort: 3306
-              name: db-port
-          env:
-            - name: MYSQL_USER
-              valueFrom:
-                secretKeyRef:
-                  name: mariadb-secret
-                  key: dbuser
-            - name: MYSQL_DATABASE
-              valueFrom:
-                secretKeyRef:
-                  name: mariadb-secret
-                  key: dbname
-            - name: MYSQL_PASSWORD
-              valueFrom:
-                secretKeyRef:
-                  name: mariadb-secret
-                  key: dbpassword
-            - name: MYSQL_ROOT_PASSWORD
-              valueFrom:
-                secretKeyRef:
-                  name: mariadb-secret
-                  key: dbrootpassword
+      - name: wordpress
+        image: mariadb
+        ports:
+          - containerPort: 3306
+            name: db-port
+        env:
+          - name: MYSQL_USER
+            valueFrom:
+              secretKeyRef:
+                name: mariadb-secret
+                key: dbuser
+          - name: MYSQL_DATABASE
+            valueFrom:
+              secretKeyRef:
+                name: mariadb-secret
+                key: dbname
+          - name: MYSQL_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                name: mariadb-secret
+                key: dbpassword
+          - name: MYSQL_ROOT_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                name: mariadb-secret
+                key: dbrootpassword
         volumeMounts:
         - name: mysql-persistent-storage
           mountPath: /var/lib/mysql
