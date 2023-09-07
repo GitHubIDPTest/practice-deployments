@@ -5,6 +5,9 @@ resources:
 - persistentVolumeClaim/
 - services/
 secretGenerator:
-- name: mysql-pass
+- name: mariadb-secret
   literals:
-  - password=testing
+  - dbuser=tsalawu
+  - dbpassword=testing
+  - dbname=testdb
+  - dbrootpassword=testing
