@@ -4,3 +4,7 @@ resources:
 - deployments/
 - persistentVolumeClaim/
 - services/
+secretGenerator:
+- name: mysql-pass
+  literals:
+  - password=testing
