@@ -4,6 +4,7 @@ resources:
 - deployments/
 - persistentVolumeClaim/
 - services/
+- ingress/
 secretGenerator:
 - name: mariadb-secret
   literals:
