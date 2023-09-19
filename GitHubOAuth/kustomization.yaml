@@ -2,4 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
   - git-CR.yaml
-  - git-org-secret.yaml
+secretGenerator:
+- name: taj-org-secret
+  files:
+  - git-org-secret.txt
