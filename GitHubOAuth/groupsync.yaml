@@ -1,0 +1,14 @@
+apiVersion: redhatcop.redhat.io/v1alpha
+kind: GroupSync
+metadata:
+  name: github-GitHubIDPTest
+  namespace: group-sync-operator
+spec:
+  providers:
+  - name: github
+    github:
+      organization: GitHubIDPTest
+      prune: true
+      credentialsSecret:
+        name: taj-org-secret
+        namespace: openshift-config
