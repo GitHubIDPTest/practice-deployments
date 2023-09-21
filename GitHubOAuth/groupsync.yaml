@@ -1,4 +1,4 @@
-apiVersion: redhatcop.redhat.io/v1alpha
+apiVersion: redhatcop.redhat.io/v1alpha1
 kind: GroupSync
 metadata:
   name: github-GitHubIDPTest
