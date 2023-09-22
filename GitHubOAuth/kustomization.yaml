@@ -3,6 +3,7 @@ kind: Kustomization
 resources:
   - OAuth.yaml
   - group-sync-operator/
+  - clusterrolebindings/
 
 secretGenerator:
 - name: taj-org-secret
