@@ -4,3 +4,4 @@ resources:
 - namespace.yaml
 - subscription.yaml
 - groupoperator.yaml
+- groupsync.yaml
