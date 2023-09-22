@@ -12,8 +12,6 @@ spec:
         clientID: 6b5aae649836181457ea
         clientSecret:
           name: taj-org-secret
-        organizations:
-          - GitHubIDPTest
         teams:
           - GitHubIDPTest/Admins
           - GitHubIDPTest/Member
