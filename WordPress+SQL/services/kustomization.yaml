@@ -3,5 +3,4 @@ kind: Kustomization
 resources:
   - mariaDB/service.yaml
   - wordpress/service.yaml
-  - phpmyadmin/service.yaml
   
