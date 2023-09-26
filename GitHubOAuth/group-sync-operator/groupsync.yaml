@@ -1,7 +1,7 @@
 apiVersion: redhatcop.redhat.io/v1alpha1
 kind: GroupSync
 metadata:
-  name: github-GitHubIDPTest
+  name: github-githubidptest
   namespace: group-sync-operator
 spec:
   providers:
@@ -10,5 +10,5 @@ spec:
       organization: GitHubIDPTest
       prune: true
       credentialsSecret:
-        name: taj-org-secret
-        namespace: openshift-config
+        name: group-sync-app-secret
+        namespace: group-sync-operator
