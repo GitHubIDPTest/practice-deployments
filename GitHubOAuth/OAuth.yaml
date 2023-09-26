@@ -14,5 +14,5 @@ spec:
           name: taj-org-secret
         teams:
           - GitHubIDPTest/Admins
-          - GitHubIDPTest/Member
+          - GitHubIDPTest/Viewers
 
