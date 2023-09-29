@@ -7,3 +7,5 @@ resources:
   - namespace.yaml
   - securitycontextconstraints.yaml
   - storageclass.yaml
+  - daemonset.yaml
+  - serviceaccount.yaml
