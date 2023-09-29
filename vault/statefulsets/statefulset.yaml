@@ -115,7 +115,7 @@ spec:
           name: config
         - mountPath: /home/vault
           name: home
-      serviceAccountName: nerc-vault
+      serviceAccountName: tajcluster-vault
       terminationGracePeriodSeconds: 10
       volumes:
       - configMap:
