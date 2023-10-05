@@ -5,4 +5,5 @@ resources:
 - clusterissuer.yaml
 - clusterrole.yaml
 - clusterrolebinding.yaml
-- securitycontextrestraint.yaml
+- securitycontextconstraints.yaml
+- issuer-dns-prod.yaml
