@@ -3,7 +3,10 @@ kind: Kustomization
 resources:
 - subscription.yaml
 - clusterissuer.yaml
+- clusterissuer-dns-prod.yaml
 - clusterrole.yaml
 - clusterrolebinding.yaml
 - securitycontextconstraints.yaml
 - issuer-dns-prod.yaml
+- default-ingress-certificate.yaml
+- default-api-certificate.yaml
