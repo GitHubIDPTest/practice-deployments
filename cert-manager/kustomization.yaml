@@ -4,6 +4,7 @@ resources:
 - subscription.yaml
 - clusterissuer.yaml
 - clusterissuer-dns-prod.yaml
+- clusterissuer-dns01-staging.yaml
 - clusterrole.yaml
 - clusterrolebinding.yaml
 - securitycontextconstraints.yaml
