@@ -10,3 +10,4 @@ resources:
 - securitycontextconstraints.yaml
 - default-ingress-certificate.yaml
 - default-api-certificate.yaml
+- apiserver.yaml
