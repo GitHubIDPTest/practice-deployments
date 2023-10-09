@@ -11,3 +11,4 @@ resources:
 - default-ingress-certificate.yaml
 - default-api-certificate.yaml
 - apiserver.yaml
+- ingresscontroller.yaml
