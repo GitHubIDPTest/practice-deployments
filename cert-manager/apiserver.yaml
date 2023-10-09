@@ -1,22 +1,8 @@
 apiVersion: config.openshift.io/v1
 kind: APIServer
 metadata:
-  annotations:
-    include.release.openshift.io/ibm-cloud-managed: "true"
-    include.release.openshift.io/self-managed-high-availability: "true"
-    include.release.openshift.io/single-node-developer: "true"
-    oauth-apiserver.openshift.io/secure-token-storage: "true"
-    release.openshift.io/create-only: "true"
-  creationTimestamp: "2023-09-28T15:41:33Z"
-  generation: 1
   name: cluster
-  ownerReferences:
-  - apiVersion: config.openshift.io/v1
-    kind: ClusterVersion
-    name: version
-    uid: d2618568-b4a3-4469-9aa0-54066ebb609f
-  resourceVersion: "727"
-  uid: 963cb2bc-7cd4-4b9c-9fdd-3ff87e4c37aa
+  namespace: openshift-config
 spec:
   audit:
     profile: Default
