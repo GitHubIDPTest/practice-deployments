@@ -12,7 +12,7 @@ secretGenerator:
   literals:
   - appId=396174
   files:
-  - privateKey=group-sync-operator-tajcluster.2023-09-26.private-key.pem
+  - privateKey=group-sync-operator-tajcluster.2023-10-17.private-key.pem
 
 generatorOptions:
   disableNameSuffixHash: true
