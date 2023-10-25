@@ -4,4 +4,4 @@ namespace: external-secrets-operator
 resources:
 - eso-vault-auth/serviceaccount.yaml
 - vault-secret-reader/serviceaccount.yaml
-- vault-auth/serviceaccount.yaml
+#- vault-auth/serviceaccount.yaml
