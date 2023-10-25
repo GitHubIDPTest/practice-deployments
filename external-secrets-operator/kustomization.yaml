@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
 - externalsecrets/
 - serviceaccounts/
-- clusterrolebinding.yaml
+- clusterrolebinding/
 - clustersecretstore.yaml
 - namespace.yaml
 - operatorconfig.yaml
