@@ -1,8 +1,4 @@
-# For K/V v1 secrets engine
-path "secret/spinnaker/*" {
-    capabilities = ["read", "list"]
-}
 # For K/V v2 secrets engine
-path "secret/data/spinnaker/*" {
+path "secret/data/secret-reader/*" {
     capabilities = ["read", "list"]
 }
