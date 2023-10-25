@@ -10,4 +10,7 @@ roleRef:
 subjects:
 - kind: ServiceAccount
   name: vault-secret-reader
+  namespace: external-secrets-operator
+- kind: ServiveAccount
+  name: vault-auth
   namespace: vault
