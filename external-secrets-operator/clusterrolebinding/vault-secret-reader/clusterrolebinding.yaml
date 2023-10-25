@@ -13,4 +13,4 @@ subjects:
   namespace: external-secrets-operator
 - kind: ServiceAccount
   name: vault-auth
-  namespace: vault
+  namespace: default
