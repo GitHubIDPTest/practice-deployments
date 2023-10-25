@@ -11,6 +11,6 @@ subjects:
 - kind: ServiceAccount
   name: vault-secret-reader
   namespace: external-secrets-operator
-- kind: ServiveAccount
+- kind: ServiceAccount
   name: vault-auth
   namespace: vault
