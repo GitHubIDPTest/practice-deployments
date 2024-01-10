@@ -1,2 +1,2 @@
 # practice-deployments
-Repo to practice deploying different app and services
+Repo to practice deploying different apps, services, and operators.
