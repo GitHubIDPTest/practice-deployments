@@ -9,9 +9,9 @@ spec:
       mappingMethod: claim
       type: GitHub
       github:
-        clientID: 6b5aae649836181457ea
+        clientID: 
         clientSecret:
-          name: taj-org-secret
+          name: 
         teams:
           - GitHubIDPTest/Admins
           - GitHubIDPTest/Viewers
