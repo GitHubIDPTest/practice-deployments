@@ -10,9 +10,9 @@ secretGenerator:
 - name: group-sync-app-secret
   namespace: group-sync-operator
   literals:
-  - appId=396174
+  - appId=
   files:
-  - privateKey=group-sync-operator-tajcluster.2023-10-17.private-key.pem
+  - privateKey=
 
 generatorOptions:
   disableNameSuffixHash: true
